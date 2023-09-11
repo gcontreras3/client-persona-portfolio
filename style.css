@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+html {
+    background-color: #EDEFEE;
+    display: flex;
+}
+/* Header styling - Logo styles */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+header img {
+    width: 500px;
+    height: 140px;
+}
+/* Nav bar styling */
+nav {
+    display: flex;
+    background-color: #333333;
+    margin-top: 30px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 12px;
+}
+nav ul {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    color: white;
+    list-style-type: none;
+}
+/* main section 30% off */
+main {
+    display: flex;
+    flex-direction: column;
+}
+.container-main {
+    background-image: url(./noodles.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 140px;
+}
+.container-main article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-main article h1 {
+    margin-top:30px;
+    color: white;
+    font-size: 24px;
+}
+.container-main article p {
+    margin-top: 30px;
+    color: white;
+}
+/* Container cards */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    gap: 12px;
+}
+.container article {
+    background-color: #F4E5D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.img-card {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 200px;
+}
+#img-1 {
+    background-image: url(./pexels-dapur-melodi-1109197.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#img-2 {
+    background-image: url(./pexels-ella-olsson-1640771.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#img-3 {
+    background-image: url(/pexels-furkanfdemir-10821218.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container article {
+    border-radius: 18px;
+    width: 300px;
+}
+#link {
+    margin-top: 20px;
+}
+#hours-op {
+    margin-top: 20px;
+}
+
+/* footer styles */
+footer {
+    margin-top: 18px;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    border-top: 1px solid black;
+    width: 600px;
+}
+footer img {
+    width: 100px;
+}
